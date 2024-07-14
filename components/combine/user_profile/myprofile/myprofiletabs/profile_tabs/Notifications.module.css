@@ -1,0 +1,45 @@
+.activityPicborder {
+    width: 32px;
+    height: 32px;
+}
+.activitycommentRow {
+    background: #FFFFFF;
+    border: 1px solid rgba(53, 52, 82, 0.1);
+    border-radius: 10px;
+}
+.activityComments{
+    font-family: 'Gilroy-Regular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 12px; 
+    margin-bottom: 10px; 
+    color: #353452;
+}
+.buttonAlign {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.followbackButton {
+    background: linear-gradient(131.85deg, #D51AFF -19.16%, #4E6AFE 58.53%, #8BF3FE 135.61%);
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+
+
+    font-family: 'Gilroy-Medium';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #FFFFFF !important;
+
+}

@@ -1,0 +1,65 @@
+.skyBackgroundBox {
+  background-color: #f4faff;
+  border: 0.5px solid #e9edf1;
+  border-radius: 10px;
+  height: 100%;
+}
+.moduleBorderWrap {
+  border-radius: 10px;
+  max-width: 100%;
+  padding: 1px;
+  position: relative;
+  background: linear-gradient(to right, #d51aff, #4e6afe, #8bf3fe);
+}
+
+.module {
+  background: white;
+  color: white;
+  /* padding: 2rem; */
+  border-radius: 10px;
+}
+
+.changeColor {
+  background-color: #d7e7f4a5;
+  /* background-color: #bcc4ea1f;  */
+  /* background-color: #F5FE88;  */
+}
+
+.subChapChangeColor {
+  background-color: rgba(136, 237, 254, 0.3);
+}
+
+.chapSubchapHeading {
+  font-family: 'Gilroy-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #2f384c;
+}
+
+.contentScroll {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.contentScroll::-webkit-scrollbar {
+  width: 6px;
+  margin-right: 10px;
+}
+
+/* Track */
+.contentScroll::-webkit-scrollbar-track {
+  /* background: white; */
+  background: none;
+}
+
+/* Handle */
+.contentScroll::-webkit-scrollbar-thumb {
+  /* background: #cbcbd1; */
+  background: #dadada;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.contentScroll::-webkit-scrollbar-thumb:hover {
+  background: #dadada;
+}

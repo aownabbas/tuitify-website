@@ -1,0 +1,27 @@
+.scrollable_container {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.scrollable_container::-webkit-scrollbar-thumb {
+  display: none;
+}
+
+.scrollable_container.show_scrollbar::-webkit-scrollbar-thumb {
+  background-color: #999;
+  display: block;
+  height: 100px !important;
+}
+
+.scrollable_container::-webkit-scrollbar {
+  width: 6px;
+  background-color: transparent;
+}
+
+.scrollable_container::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 3px;
+  transition: background-color 0.3s;
+  height: 100px; /* Set your desired height */
+}

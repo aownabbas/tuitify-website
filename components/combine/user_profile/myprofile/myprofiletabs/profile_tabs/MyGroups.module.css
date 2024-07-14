@@ -1,0 +1,52 @@
+.commentRow {
+  background: #ffffff;
+  border: 1px solid rgba(53, 52, 82, 0.1);
+  border-radius: 10px;
+}
+.groupsCircle {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  border: 0.5px solid rgba(53, 52, 82, 0.1);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.mygroupsImg {
+  width: 28px;
+  height: 28px;
+  /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)); */
+  /* border-radius: 16px; */
+}
+.actComments {
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 12px;
+  margin-bottom: 10px;
+  color: #353452;
+}
+.viewbutton {
+  background: linear-gradient(131.85deg, #d51aff -19.16%, #4e6afe 58.53%, #8bf3fe 135.61%);
+  border-radius: 5px;
+  outline: none;
+  border: none !important;
+  border-color: transparent !important;
+  width: 58px;
+  height: 26px;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.viewbutton:focus {
+  outline: none;
+  border: none !important;
+  border-color: transparent !important;
+}

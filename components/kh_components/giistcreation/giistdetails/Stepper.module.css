@@ -1,0 +1,272 @@
+.main_form {
+  width: 100%;
+  height: 250px;
+  position: relative;
+  top: 3rem;
+}
+.backgroundShadow {
+  /* box-shadow: 7.05556px 7.05556px 84.6667px rgba(0, 0, 0, 0.1); */
+  /* box-shadow: 10px 10px 30px 10px grey; */
+  box-shadow: 7.05556px 7.05556px 84.6667px rgba(0, 0, 0, 0.1);
+  /* margin: 500px !important; */
+  background: #ffffff !important;
+  border-radius: '10px' !important;
+}
+/* .title {
+  display: inline-block;
+} */
+.title label {
+  display: block;
+  color: rgba(53, 52, 82, 0.78);
+}
+/* .title input {
+  width: 100%;
+  height: 40px;
+  background: #ffffff;
+  border-radius: 10px;
+  outline: none;
+  padding-left: 18px;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #353452;
+} */
+.title2 {
+  display: inline-block;
+  max-width: 400px;
+  width: 100%;
+}
+.title2 label {
+  display: block;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(53, 52, 82, 0.78);
+}
+.title2 input {
+  width: 228px;
+  height: 40px;
+  background: #ffffff;
+  border-radius: 10px;
+  outline: none;
+  padding-left: 18px;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #353452;
+}
+.title2 p {
+  margin: 0px;
+  font-size: 14px;
+  color: rgba(53, 52, 82, 0.78);
+  max-width: 200px;
+  width: 100%;
+  font-style: normal;
+  line-height: 18px;
+}
+
+.select_container {
+  /* max-width: 363px; */
+  display: inline-block;
+  color: rgba(53, 52, 82, 0.78);
+  /* width: 100%; */
+}
+.select_container label {
+  display: block;
+}
+.select_container select {
+  height: 40px;
+  background: #ffffff;
+  border-radius: 10px;
+  outline: none;
+}
+.description label {
+  display: block;
+  margin-top: 15px;
+  color: rgba(53, 52, 82, 0.78);
+}
+.giist_detail_textarea {
+  width: 695px;
+  height: 90px;
+  background: #ffffff;
+  /* opacity: 0.2; */
+  border: 1px solid #cfcfcf;
+  border-radius: 10px;
+  outline: none;
+  padding-left: 15px;
+  margin-bottom: 10px;
+  /* font-family: 'Gilroy-Medium'; */
+  font-style: normal;
+  /* font-weight: 100; */
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #353452;
+}
+
+.thumbnail label {
+  display: block;
+}
+.MuiStepConnector-alternativeLabel {
+  top: 12px;
+  left: calc(-50% + -61px);
+  right: calc(50% + 85px);
+  position: absolute;
+}
+.img_uploader {
+  width: 194px;
+  height: 108px;
+  margin-top: 15px;
+  background: #353452;
+}
+.MuiButton-containedPrimary {
+  color: #fff;
+  background-color: red;
+}
+.file {
+  color: #353452;
+  display: inline-block;
+  width: 100%;
+  max-width: 194px;
+  /* padding: 120px 0 0 0; */
+  height: 108px;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url('https://cdn1.iconfinder.com/data/icons/hawcons/32/698394-icon-130-cloud-upload-512.png') center
+    center no-repeat #e4e4e4;
+  border-radius: 14px;
+  background-size: 60px 60px;
+  cursor: pointer;
+
+  margin-right: 15px;
+}
+.preview {
+  /* max-width: 194px;
+    width: 100%; */
+
+  height: 108px !important;
+  background: rgba(0, 0, 0, 0.16);
+  border-radius: 10px;
+  /* display: inline-block; */
+  border: none;
+  /* width: 194px; */
+  width: 100%;
+}
+.descriptionBorder {
+  background: #ffffff;
+  border: 1px solid rgba(53, 52, 82, 0.2);
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  color: #353452;
+  padding-left: 15px !important;
+}
+.descriptionBorder:focus {
+  /* border: 9px solid pink !important; */
+  background: #ffffff;
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.button1 {
+  max-width: 148px;
+  width: 100%;
+  background: #353452;
+  border-radius: 10px;
+}
+.stepper {
+  float: left;
+}
+.giist_creation_label {
+  /* font-family: 'Gilroy-Medium'; */
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: rgba(53, 52, 82, 0.78);
+}
+.myfont {
+  /* font-family: 'Mulish'; */
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+  color: rgba(53, 52, 82, 0.78);
+}
+.cmeCheckTxt {
+  /* font-family: 'Mulish'; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  color: #353452;
+}
+
+.checkBox input[type='checkbox'] {
+  background-color: #4e6afe;
+  height: 18px;
+  width: 18px;
+}
+
+/* Style the label when the checkbox is checked */
+.checkBox input[type='checkbox']:checked {
+  background-color: #4e6afe;
+  border-color: #4e6afe;
+}
+
+.inputStyle {
+  background: #ffffff;
+  border: 1px solid rgba(53, 52, 82, 0.2);
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  color: #353452;
+  height: 40px !important;
+  width: 100%;
+  outline: none;
+  padding-left: 15px !important;
+  font-style: normal;
+}
+
+.ReactTags_tags {
+  border: 2px solid black;
+  resize: none;
+}
+.listGiist:hover {
+  border-radius: 10px;
+  background: #212529;
+  color: #ffffff !important;
+}
+
+.textLanguage {
+  /* color: red !important; */
+}
+
+.textLanguage:hover {
+  border-radius: 10px;
+  background: #212529;
+  color: #ffffff !important;
+}
+
+.userName {
+  font-family: 'Gilroy-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #353452;
+}

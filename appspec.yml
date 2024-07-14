@@ -1,0 +1,12 @@
+version: 0.0
+os: linux 
+files:
+  - source: /
+    destination: /www/wwwroot/chubdev.tuitify.com
+hooks:
+  BeforeInstall:
+    - location: hooks/before-install.sh
+      runas: root
+  AfterInstall:
+    - location: hooks/after-install.sh
+      runas: root

@@ -1,0 +1,46 @@
+.textarea:focus {
+  outline: none !important;
+}
+
+.quizContainer {
+  background: #ffffff;
+  border: 1px solid rgba(53, 52, 82, 0.2);
+  border-radius: 10px;
+}
+
+.innerContainer {
+  background: #f4faff;
+  border: 1px solid rgba(53, 52, 82, 0.2);
+  border-radius: 10px;
+  padding: 0%;
+  margin: 0%;
+}
+
+.stylePlaceholder::placeholder {
+  text-align: center;
+}
+.inputBorder {
+  background: #ffffff;
+  border: 1px solid rgba(53, 52, 82, 0.2);
+  border-radius: 10px;
+}
+.drowdown {
+  color: '#303548' !important;
+  background-color: '#FFF' !important;
+  border: '1px solid #FFF' !important;
+  border-radius: '5px' !important;
+}
+.DropdownHove a {
+  color: #303548 !important;
+}
+.DropdownHove:hover {
+  background: white !important;
+}
+
+.drowdown a {
+  color: #353452 !important;
+}
+
+.dropdown-menu.show:hover {
+  background-color: transparent !important;
+}

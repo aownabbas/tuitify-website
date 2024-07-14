@@ -1,0 +1,11 @@
+.circleLoaderBackground {
+    position: absolute !important;
+    z-index: 1 !important;
+    right: 0 !important;
+    svg {
+        color: pink !important;
+        circle {
+            stroke-dashoffset: 0px !important;
+        }
+    }
+}

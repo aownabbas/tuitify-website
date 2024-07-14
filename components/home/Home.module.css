@@ -1,0 +1,199 @@
+.carTab li > button {
+  border: none;
+}
+
+.cardImgTxt {
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.4667px;
+  line-height: 17px;
+  color: #ffffff;
+}
+
+.cardtext {
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #353452;
+}
+.cardTitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #353452;
+}
+.userGiistName {
+  font-family: 'Gilroy-Medium' !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #353452;
+}
+.giistDate {
+  font-family: 'Gilroy-Regular';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #353452;
+  opacity: 0.6;
+  /* margin-top: -50rem !important; */
+}
+.cardRating {
+  width: 44px;
+  height: 44px;
+  border-radius: 100px;
+  border: 2px solid blue;
+
+  font-family: 'Gilroy-Regular' !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  background: linear-gradient(131.85deg, #d51aff -19.16%, #4e6afe 58.53%, #8bf3fe 135.61%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+/* .cardUserName {
+    font-family: 'Gilroy-Regular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .cardDate {
+    font-family: 'Gilroy-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #353452;
+    opacity: 0.6;
+  }
+   */
+
+.myRandings {
+  font-family: 'Gilroy-Medium' !important;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #303548;
+  opacity: '0.6';
+  text-align: center;
+}
+
+.myrow {
+  background: inherit;
+  border-radius: 10px !important;
+  width: auto;
+  height: 64px;
+}
+.myrow:hover {
+  background: #f0efff;
+  border-radius: 10px;
+  width: auto;
+  height: 64px;
+  /* border-radius: 15px !important; */
+}
+.mytabButton {
+  border: none;
+  margin-top: 5px;
+}
+
+.myrakingDetail {
+  /* margin-top: 3rem; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  font-family: 'Gilroy-Medium';
+  font-style: normal;
+  font-size: 14px;
+  top: 40%;
+  line-height: 16px;
+  text-align: center;
+  color: #303548;
+  opacity: 0.6;
+}
+
+.myrakingDetailRow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+  width: 36px;
+  height: 26px;
+  background: linear-gradient(131.85deg, #d51aff -19.16%, #4e6afe 58.53%, #8bf3fe 135.61%);
+  border-radius: 5px;
+}
+.myrakingDetailTxt {
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  color: #ffffff !important;
+}
+
+.randingUserName {
+  font-family: 'Gilroy-Medium';
+  /* top: 50%; */
+  font-size: 14px;
+  line-height: 16px;
+  background: linear-gradient(131.85deg, #d51aff -19.16%, #4e6afe 58.53%, #8bf3fe 135.61%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.mynoti::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.mynoti::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+.mynoti::-webkit-scrollbar-thumb {
+  background: #cbcbd1;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+.mynoti::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.notiText {
+  font-family: 'Gilroy-Bold' !important;
+  font-style: normal;
+  font-weight: 700 !important;
+  font-size: 20px;
+  line-height: 25px !important;
+  background: -webkit-linear-gradient(-70deg, #d51aff 0.16%, #4e6afe 58.53%, #8bf3fe 135.61%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.statText {
+  font-family: 'Gilroy-Medium' !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #353452;
+
+  opacity: 0.6;
+}
+.radius {
+  border-radius: 15px;
+}

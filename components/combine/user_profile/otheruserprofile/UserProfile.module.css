@@ -1,0 +1,583 @@
+.card {
+  border-radius: 15px !important;
+  height: 85vh;
+  background-color: #ffffff;
+  overflow-y: scroll;
+}
+
+.imgFrame {
+  background: linear-gradient(0deg, rgba(53, 52, 82, 0.16), rgba(53, 52, 82, 0.16));
+  border-radius: 70px;
+  /* width: 138px;
+    height: 138px; */
+}
+.dpCameraImg {
+  width: 40px;
+  height: 40px;
+  background-color: #353452;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 10%;
+  left: 75%;
+  border: 2px solid #ffffff;
+}
+.userName {
+  font-family: 'Gilroy-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+}
+.userEmail {
+  font-family: 'Gilroy-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  opacity: 0.6;
+}
+.leftborder {
+  /* width: 1px; */
+  /* height: 100%; */
+  border-left: 1px solid rgb(196, 191, 191);
+}
+.userFollowers {
+  font-family: 'Gilroy-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+}
+
+.userfolTxt {
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #000000;
+}
+
+.userButton {
+  border: 1px solid #353452;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: transparent;
+  width: 146px;
+  height: 48px;
+
+  font-family: 'Gilroy-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+.userUnfollowButton {
+  border: 1px transparent;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background: linear-gradient(131.85deg, #d51aff -19.16%, #4e6afe 58.53%, #8bf3fe 135.61%);
+  width: 146px;
+  height: 48px;
+
+  font-family: 'Gilroy-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff !important;
+}
+
+.userButtonFollowed {
+  /* border: 1px solid #353452; */
+  box-sizing: border-box;
+  border: none;
+  border-radius: 10px;
+  /* background-color: transparent; */
+  background: linear-gradient(131.85deg, #d51aff -19.16%, #4e6afe 58.53%, #8bf3fe 135.61%);
+  width: 146px;
+  height: 48px;
+
+  font-family: 'Gilroy-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff !important;
+}
+.userButton:hover {
+  /* -webkit-border-image: -webkit-gradient(131.85deg, #D51AFF -19.16%, #4E6AFE 58.53%, #8BF3FE 135.61%); */
+  box-sizing: border-box;
+  background-color: #303548;
+  border-radius: 10px;
+  width: 146px;
+  height: 48px;
+
+  font-family: 'Gilroy-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff !important;
+}
+
+.mytab {
+  /* display: inline-flex !important; */
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.mytab li > button {
+  /* margin-left: 10px; */
+  /* width: 140px; */
+  border: none;
+  background-color: transparent;
+
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #8c8b93;
+}
+
+.mytab li > button.active {
+  /* margin-left: 10px; */
+  /* width: 130px; */
+  border: none;
+  border-bottom: 2px solid #303548;
+  background-color: transparent;
+
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #353452;
+}
+
+.profiletabindicator {
+  opacity: 0.2;
+  color: #303548;
+}
+.commentRow {
+  background: #ffffff;
+  border: 1px solid rgba(53, 52, 82, 0.1);
+  border-radius: 10px;
+}
+.commentsImg {
+  /* width: 32px;
+    height: 32px; */
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+  border: 0.5px solid rgba(53, 52, 82, 0.1);
+  border-radius: 5px;
+}
+.actComments {
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  margin-top: 12px;
+  margin-bottom: 10px;
+  /* 
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+
+  color: #353452;
+
+  opacity: 0.7;
+}
+.comments {
+  height: '100px';
+  /* background-color: red;   */
+  overflow-y: 'auto';
+  overflow-x: 'hidden';
+}
+
+.mycard {
+  background: #ffffff;
+  border: 1px solid rgba(53, 52, 82, 0.1);
+  border-radius: 10px;
+  /* width: 156px;   */
+  height: 80px;
+}
+.mytitle {
+  margin-top: -12px;
+  font-family: 'Gilroy-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #625efe !important;
+}
+.mytext {
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #303548;
+  opacity: 0.6;
+}
+.detailsCard {
+  background: #ffffff;
+  border-radius: 15px !important;
+}
+.detailCardTitle {
+  font-family: 'Gilroy-Regular';
+  font-weight: 600;
+  font-size: 20px;
+  color: #353452;
+}
+.detailsLabel {
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  color: #353452;
+  opacity: 0.6;
+}
+.detailList li {
+  display: inline;
+  /* list-style: none; */
+  margin-left: -20px;
+}
+.detailtext {
+  font-family: 'Gilroy-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #353452;
+}
+.publishedGiistsCard {
+  height: auto;
+  background: #ffffff;
+  border-radius: 15px !important;
+}
+.filterHeading {
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #353452;
+}
+.resetDefault {
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+  cursor: pointer;
+  text-decoration-line: underline;
+  color: #353452;
+}
+.resetDefault:hover {
+  font-family: 'Gilroy-Medium' !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  cursor: pointer;
+  text-decoration-line: none;
+  color: rgb(165, 60, 60) !important;
+}
+
+.emailNow {
+  position: relative;
+  width: 100%;
+  /* width: 327px; */
+  /* right: 0; */
+  background: inherit;
+  margin-right: 1rem;
+  /* border: 1px solid rgba(48, 53, 72, 0.12); */
+  /* border-radius: 12px; */
+  /* height: 48px; */
+}
+.emailInput {
+  border-radius: 12px;
+  width: 100%;
+  /* width: 327px; */
+  background: inherit;
+  border: 1px solid rgba(48, 53, 72, 0.12);
+  border-radius: 12px;
+  height: 48px;
+  padding: 10px;
+  /* background-color: red; */
+}
+.emailInput:focus {
+  border: 1px solid black;
+}
+
+.emlButton {
+  position: absolute;
+  border: none;
+  background: inherit;
+  right: 1em;
+  border: none;
+  /* height: 48px; */
+  border-radius: 30px;
+  border: none;
+
+  top: 50%;
+  transform: translateY(-50%);
+}
+.filterButton {
+  border: none;
+  background-color: inherit;
+  /* margin-top: 0.5rem; */
+}
+.customList {
+  list-style: none;
+  position: absolute;
+  width: 400px;
+  max-height: 450px;
+  overflow-y: auto;
+  border: 1px solid rgb(204, 201, 201);
+  background: #ffffff;
+  z-index: 20;
+  right: 0;
+  margin-right: 1rem;
+  margin-top: 0.8rem;
+  box-shadow: 10px 10px 10px grey;
+  /* box-shadow: -4px 4px 40px rgba(0, 0, 0, 0.16); */
+  border-radius: 15px;
+}
+.customList li {
+  padding: 0.2rem;
+  margin: 10px 10px 10px -18px;
+  /* margin-top: 10px;
+    margin-bottom: 10px; */
+}
+
+.offcanvasLabels {
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #353452;
+  opacity: 0.4;
+}
+.offcanvasInputs {
+  border: 1px solid rgba(48, 53, 72, 0.12);
+  height: 48px;
+  width: 180px;
+  border-radius: 12px;
+  padding: 15px;
+}
+.dropdownButton {
+  height: 48px;
+  border-radius: 12px;
+  border: 1px solid rgba(48, 53, 72, 0.12);
+  background-color: inherit;
+}
+
+.offcanvasButton {
+  background: #353452;
+  box-shadow: -2px 2px 40px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  color: #ffffff !important;
+  width: 350px !important;
+  height: 48px;
+}
+.ratingTxt {
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #353452;
+  opacity: 0.6;
+}
+
+.userGiistName {
+  /* font-family: 'Gilroy-Medium'; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  color: #353452;
+}
+.giistDate {
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  color: #353452;
+
+  opacity: 0.6;
+  margin-top: 4px !important;
+}
+.cardRating {
+  width: 44px;
+  height: 44px;
+  border-radius: 100px;
+  border: 2px solid blue;
+  font-family: 'Gilroy-Regular' !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  background: linear-gradient(131.85deg, #d51aff -19.16%, #4e6afe 58.53%, #8bf3fe 135.61%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.cardTitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #353452;
+  /* hide or wrap long text */
+  width: 100%;
+  white-space: nowrap;
+  font-style: normal;
+  text-transform: capitalize;
+}
+
+.mydropdownMenu {
+  position: relative;
+  width: 100%;
+  margin-right: 1rem;
+}
+.mydropdownMenu[open] {
+  z-index: 1;
+}
+
+.mydropdownSummary {
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 12px;
+  border: 1px solid grey;
+  background-color: #ffffff;
+  /* background-color: #ddd; */
+  list-style: none;
+}
+
+.mydropdownSummary::-webkit-details-marker {
+  display: none;
+}
+
+.mydropdownMenu[open] .mydropdownSummary:before {
+  content: '';
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.mydropdownSummary:after {
+  content: '';
+  display: inline-block;
+  float: right;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-bottom: 2px solid currentColor;
+  border-left: 2px solid currentColor;
+  margin-top: 0.5rem;
+  margin-right: 0.6rem;
+  border-bottom-left-radius: 2px;
+  transform: rotate(45deg) translate(50%, 0%);
+  transform-origin: center center;
+  transition: transform ease-in-out 100ms;
+}
+
+.mydropdownSummary:focus {
+  outline: none;
+}
+
+.mydropdownMenu[open] .mydropdownSummary:after {
+  transform: rotate(-45deg) translate(0%, 0%);
+}
+
+.mydropdownList {
+  width: 95%;
+  margin-left: 0.5rem !important;
+  margin-right: 0.5rem !important;
+  border-radius: 15px;
+  /* background: #ddd; */
+  box-shadow: -4px 4px 40px rgba(0, 0, 0, 0.16);
+  border-radius: 15px;
+  background: #ffffff;
+  position: absolute;
+  top: calc(100% + 0.8rem);
+  left: 0;
+  padding: 0.3rem;
+  margin: 0;
+  box-sizing: border-box;
+  /* border-radius: 5px; */
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.mydropdownList > li {
+  margin: 0;
+  padding: 0.5rem 0;
+  list-style: none;
+  /* border-bottom: 1px solid rgb(255, 255, 255); */
+}
+
+.mydropdownList > li:first-child {
+  padding-top: 0;
+}
+
+.mydropdownList > li:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+/*Aown: In Userprofile.module.css file i have added some classes for fixing design issues in userprofile. */
+.imageContainer1 {
+  /* position: relative;  */
+   display: inline-block;
+}
+.overlay1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(184, 180, 180, 0.3); /* Adjust opacity here */
+  pointer-events: none; /* Adjust opacity here */
+  border-radius: 15px;
+}
+.imgContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 138px; /* Set the width to match the image width */
+  height: 138px; /* Set the height to match the image height */
+  border-radius: 70%; /* To create a circular container */
+  background-color: #f0f0f0; /* A background color for the container */
+}
+
+.altText {
+  text-align: center;
+  width: 80%; /* Adjust this width as needed */
+  font-size: 14px; /* Adjust the font size as needed */
+  color: #888; /* Adjust the color as needed */
+}

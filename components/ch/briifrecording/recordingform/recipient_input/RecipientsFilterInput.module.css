@@ -1,0 +1,8 @@
+.dropdownElement {
+  margin-top: 10px;
+  border-radius: 10px;
+  max-height: 40vh;
+  overflow: scroll;
+  width: 100%;
+  z-index: 1;
+}

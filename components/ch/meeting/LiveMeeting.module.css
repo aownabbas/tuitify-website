@@ -1,0 +1,15 @@
+.modal {
+    border-radius: 15px !important;
+}
+.modalButton {
+    width: 55px;
+    height: 28px;
+    background: #303548;
+    border-radius: 8px;
+    right: 0;
+    position: absolute;
+    z-index: 1;
+    margin-top: 10px; 
+    margin-right: 10px;
+    border: none;
+}

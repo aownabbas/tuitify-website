@@ -1,0 +1,31 @@
+.mainContainer {
+    background: #e5e5e5;
+  }
+  
+  .logoList li {
+    display: inline-block;
+    margin-top: 6%;
+    margin-left: 3.6%;
+  }
+  .logoList2 li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .mysubhead {
+    font-family: 'Gilroy-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+  
+    /* text-align: right; */
+  
+    /* theme */
+  
+    color: #303548;
+  
+    opacity: 0.8;
+  }
+  

@@ -1,0 +1,34 @@
+.title {
+  span {
+    div {
+      video {
+        border-radius: 25px !important;
+        object-fit: cover !important;
+        transform: scale(-1, 1) !important;
+        height: 85vh !important;
+        width: 100% !important;
+      }
+      color: purple;
+    }
+    color: purple;
+  }
+  height: 85vh !important;
+  // background-color: red;
+}
+.videoContainer {
+  div {
+    height: 100% !important;
+  }
+}
+.screenReplayer {
+  span {
+    div {
+      video {
+        border-radius: 10px !important;
+        object-fit: cover !important;
+      }
+      color: purple;
+    }
+    color: purple;
+  }
+}

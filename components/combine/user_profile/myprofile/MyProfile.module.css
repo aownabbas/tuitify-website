@@ -1,0 +1,507 @@
+.searchInput {
+  height: 45px;
+  background: rgba(203, 213, 225, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border-radius: 22.5px;
+
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+}
+.tag {
+  background: rgba(203, 213, 225, 0.4);
+  border-radius: 22.5px;
+  width: 185px;
+  height: 45px;
+  /* margin-left: 1rem; */
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+/* .content{
+    margin: 0px 8px;
+} */
+.content img {
+  /* height: 30px;
+    width: 30px; */
+  border-radius: 15px;
+}
+.tagName {
+  font-family: 'Gilroy-Bold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #0f172a;
+}
+.tagEmail {
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+  color: #64748b;
+  margin-top: -15px;
+}
+/* .tagList li{
+    display: inline-block;
+    margin-left: -20px;
+} */
+.card {
+  border-radius: 15px !important;
+  height: 803px;
+  background-color: #ffffff;
+}
+
+.imgFrame {
+  background: linear-gradient(0deg, rgba(53, 52, 82, 0.16), rgba(53, 52, 82, 0.16));
+  /* width: 40%; */
+  /* text-align: center; */
+  border-radius: 70px;
+}
+.mydropdown {
+  background: #353452;
+  box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  width: 11rem;
+}
+.mydropdown li > a {
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: -10px;
+  /* text-align: center; */
+  /* margin-left: 5px; */
+
+  margin-right: 5px;
+  color: #ffffff;
+}
+.mydropdown li > a:hover {
+  background-color: #353452;
+  color: #b2adad;
+  /* font-size: 16.5px; */
+  /* font-weight: 600; */
+}
+.mymodal {
+  -webkit-border-radius: 10px !important;
+  -moz-border-radius: 10px !important;
+  border-radius: 10px !important;
+}
+.picModalTitle {
+  font-family: 'Gilroy-Semibold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+.modalCloseBtn {
+  background: transparent;
+  border: none;
+  /* margin-top: 0px; */
+
+  font-family: 'Gilroy-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.7px;
+  line-height: 18px;
+  color: #353452;
+}
+.modalCloseBtn:hover {
+  background: transparent;
+  border: none;
+  /* margin-top: 0px; */
+
+  font-family: 'Gilroy-Medium';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #353452;
+}
+.leftRightMargins {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.closefooterbtn {
+  width: 81px;
+  height: 38px;
+  background: #353452;
+  border-radius: 5px;
+
+  font-family: 'Gilroy-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.modalRotateButton {
+  border: none;
+  height: 35px;
+  width: 35px;
+  border-radius: 17px;
+  background-color: transparent;
+}
+.modalRotateButton:hover {
+  background-color: transparent;
+}
+
+.modalImage {
+  width: 480px;
+  height: 333px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background: #c4c4c4;
+}
+
+.modalVidPlayButton {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  background: transparent;
+}
+
+.userName {
+  font-family: 'Gilroy-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+}
+.userEmail {
+  font-family: 'Gilroy-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  opacity: 0.6;
+}
+.leftborder {
+  /* width: 1px; */
+  /* height: 100%; */
+  border-left: 1px solid rgb(196, 191, 191);
+}
+.userFollowers {
+  font-family: 'Gilroy-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+}
+
+.userfolTxt {
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #000000;
+}
+.linkStyle {
+  text-decoration: none;
+  color: #655cfe !important;
+}
+.linkStyle:hover {
+  font-family: 'Gilroy-Medium';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #000000;
+
+  text-decoration: none;
+  color: #655cfe;
+}
+
+.userButton {
+  border: 1px solid #353452;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: transparent;
+  width: 130px;
+  height: 48px;
+  font-family: 'Gilroy-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  float: right;
+}
+.userButton:hover {
+  border: 1px solid #353452;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: #353452;
+  width: 130px;
+  height: 48px;
+
+  font-family: 'Gilroy-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff !important;
+}
+.mytab {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.mytab a {
+  /* margin-left: 10px; */
+  /* width: 80px; */
+  border: none;
+  border-bottom: 3px solid rgb(226, 221, 221);
+  background-color: transparent;
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10.8px;
+  line-height: 10px;
+  color: #8c8b93;
+}
+.mytab li > a:hover {
+  border: none;
+  border-bottom: 3px solid rgb(195, 52, 52);
+  /* background-color: transparent; */
+}
+.mytab li > a:hover > p {
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10.8px;
+  line-height: 10px;
+  color: #bd4646af;
+}
+.mytab a.active {
+  font-family: 'Gilroy-Bold';
+  color: #303548;
+  border-bottom: 2px solid #303548;
+}
+/* .navlink {
+    width: 80px;
+} */
+
+.comments {
+  overflow-y: auto;
+  height: 250px;
+}
+
+.mycard {
+  background: #ffffff;
+  border: 1px solid rgba(53, 52, 82, 0.1);
+  border-radius: 10px;
+  /* width: 156px;   */
+  /* height: 63px; */
+}
+.mytitle {
+  margin-top: -12px;
+  font-family: 'Gilroy-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #625efe;
+}
+.mytext {
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #303548;
+  opacity: 0.6;
+}
+.detailsCard {
+  background: #ffffff;
+  border-radius: 15px !important;
+}
+.detailCardTitle {
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 25px;
+  color: #353452;
+}
+.detailCardSubTitle {
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #353452;
+  opacity: 0.8;
+  margin-top: -10px;
+}
+.detailsLabel {
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  color: #353452;
+  opacity: 0.6;
+}
+.detailList li {
+  display: inline;
+  /* list-style: none; */
+  margin-left: -20px;
+}
+.detailtext {
+  font-family: 'Gilroy-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #353452;
+}
+.publishedGiistsCard {
+  height: 241px;
+  background: #ffffff;
+  border-radius: 15px !important;
+}
+
+.inputIcon {
+  /* padding-left: 25px; */
+  background: url('/assets/images/username_avatar.svg') no-repeat left center;
+  background-size: 15px;
+  border: none;
+  border-bottom: 1px solid rgb(193, 190, 190);
+  width: 100%;
+  padding: 5px 25px;
+}
+.inputIconCompany {
+  /* padding-left: 25px; */
+  background: url('/assets/images/com-name-icon.svg') no-repeat left center;
+  background-size: 15px;
+  border: none;
+  border-bottom: 1px solid rgb(193, 190, 190);
+  width: 100%;
+  padding: 5px 25px;
+}
+.inputIconDepartment {
+  /* padding-left: 25px; */
+  background: url('/assets/images/department-icon.svg') no-repeat left center;
+  background-size: 28px;
+  border: none;
+  border-bottom: 1px solid rgb(193, 190, 190);
+  width: 100%;
+  padding: 5px 25px;
+}
+.inputIconPosition {
+  /* padding-left: 25px; */
+  background: url('/assets/images/market-positioning-icon.svg') no-repeat left center;
+  background-size: 20px;
+  border: none;
+  border-bottom: 1px solid rgb(193, 190, 190);
+  width: 100%;
+  padding: 5px 25px;
+}
+.inputIconPhone {
+  background: url('/assets/images/ic_PhoneNumber.svg') no-repeat left center;
+  background-size: 28px;
+  border: none;
+  border-bottom: 1px solid rgb(193, 190, 190);
+  width: 100%;
+  opacity: 0.3;
+  padding: 5px 25px;
+}
+.inputIconLinkedin {
+  background: url('/assets/images/linkedin-icon.svg') no-repeat left center;
+  background-size: 15px;
+  border: none;
+  border-bottom: 1px solid rgb(193, 190, 190);
+  width: 100%;
+  padding: 5px 25px;
+}
+.inputIconDescription {
+  background: url('/assets/images/user-desc-icon.svg') no-repeat left center;
+  background-size: 15px;
+  border: none;
+  border-bottom: 1px solid rgb(193, 190, 190);
+  width: 100%;
+  padding: 5px 25px;
+}
+.inputStyle {
+  border: none;
+  border-bottom: 1px solid rgb(193, 190, 190);
+  width: 100%;
+  opacity: 0.8;
+  padding-left: 30px;
+}
+.inputStyle:focus {
+  outline: none;
+  border-bottom: 1px solid #4e6afe;
+}
+.inputIcon:focus {
+  outline: none;
+  border-bottom: 1px solid #4e6afe;
+}
+.comments::-webkit-scrollbar {
+  width: 3px;
+  background: #353452;
+  border-radius: 5px;
+}
+/* Track */
+.comments::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+/* Handle */
+.comments::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.comments::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.tab_label {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  color: #353452;
+}
+
+.tab_label_active {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  color: #353452;
+  opacity: 0.4;
+}

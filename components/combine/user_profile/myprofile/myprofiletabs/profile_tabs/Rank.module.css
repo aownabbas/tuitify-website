@@ -1,0 +1,17 @@
+.rankborder{
+    border: 1px solid #d3d3d4;
+    border-radius: 10px;
+}
+.rankNumber{
+    font-weight: 700;
+    font-size: 18px;
+    background-clip: text !important;
+    color: #625EFE !important;
+
+}
+.rankDescription{
+    
+    font-weight: 400;
+    font-size: 12px;
+    opacity: 0.6;
+}

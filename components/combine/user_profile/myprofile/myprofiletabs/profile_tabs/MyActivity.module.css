@@ -1,0 +1,21 @@
+.activityPicborder {
+    width: 32px;
+    height: 32px;
+    /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+    border: 0.5px solid rgba(53, 52, 82, 0.1); */
+}
+.activitycommentRow {
+    background: #FFFFFF;
+    border: 1px solid rgba(53, 52, 82, 0.1);
+    border-radius: 10px;
+}
+.activityComments{
+    font-family: 'Gilroy-Regular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 12px; 
+    margin-bottom: 10px; 
+    color: #353452;
+}

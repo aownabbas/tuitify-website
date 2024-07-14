@@ -1,0 +1,262 @@
+.listUnstyled li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 0.5rem;
+}
+.listTxt {
+  font-family: 'Gilroy-Medium' !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #0f172a;
+}
+.listTxt span {
+  font-family: 'Gilroy-Regular' !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #625efe !important;
+}
+.chapters {
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  color: #303548;
+}
+.chapterText {
+  font-family: 'Gilroy-Regular' !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #2f384c;
+}
+.subChapterText {
+  font-family: 'Gilroy-Medium' !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #2f384c;
+}
+.chapterSize {
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #2f384c;
+
+  margin-top: -12px;
+}
+.TextOpacity {
+  opacity: 0.6;
+}
+.myAccordion {
+  background-color: #ffffff;
+  border-radius: 12px;
+}
+
+.quizBox {
+  background: linear-gradient(131.85deg, #d51aff -19.16%, #4e6afe 58.53%, #8bf3fe 135.61%);
+  border-radius: 10px;
+}
+.quizText {
+  padding: 15px;
+}
+.innerContainer {
+  background: #f4faff;
+  border: 1px solid rgba(53, 52, 82, 0.2);
+  border-radius: 10px;
+  width: 100%;
+  padding: 10px;
+}
+.simp {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  color: #303548;
+}
+.gradient {
+  background: linear-gradient(131.85deg, #d51aff -19.16%, #4e6afe 58.53%, #8bf3fe 135.61%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.ques {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+
+  color: #303548;
+}
+.checkBox {
+  min-width: 588px;
+  min-height: 36px;
+  background: #ffffff;
+  border-radius: 10px;
+  border: 1px solid rgba(53, 52, 82, 0.2);
+  /* background: linear-gradient(white, white) padding-box,
+  linear-gradient(to right, darkblue, darkorchid) border-box;
+  border-radius: 10px;
+  border: 1px solid transparent; */
+}
+
+.checkBox2 {
+  max-width: 240px;
+  min-height: 36px;
+  background: #ffffff;
+  border-radius: 10px;
+  border: 1px solid rgba(53, 52, 82, 0.2);
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(131.85deg, #d51aff -19.16%, #4e6afe 58.53%, #8bf3fe 135.61%) border-box;
+  border-radius: 10px;
+  border: 1px solid transparent;
+}
+.checkBox3 {
+  background: #ffffff;
+  border-radius: 10px;
+  border: 1px solid rgba(53, 52, 82, 0.2);
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(131.85deg, #d51aff -19.16%, #4e6afe 58.53%, #8bf3fe 135.61%) border-box;
+  border-radius: 10px;
+  border: 1px solid transparent;
+}
+.checkBoxi input {
+  min-width: 591px;
+  min-height: 96px;
+  background: #ffffff;
+  border-radius: 10px;
+  border: 1px solid rgba(53, 52, 82, 0.2);
+}
+
+.progressBar {
+  background: rgba(48, 53, 72, 0.7);
+  backdrop-filter: blur(6px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 12px;
+  /* height: 100%; */
+  /* min-width: 604px; */
+  /* padding: 10px; */
+  width: 95% !important;
+}
+.progressLine {
+  background: #ffffff;
+}
+.next {
+  font-style: normal;
+  /* font-weight: 600; */
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.explain {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #303548;
+}
+.explaination {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #303548;
+  width: 519px;
+}
+.DropdownHove a {
+  color: #303548 !important;
+}
+.DropdownHove:hover {
+  background: rgba(53, 52, 82, 0.04) !important;
+}
+.descriptionBorder,
+.descriptionBorder:focus {
+  /* border: 9px solid pink !important; */
+  outline: 1px solid #35345233 !important;
+  border-color: Transparent !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.checkBoxi textarea::placeholder {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #353452;
+
+  opacity: 0.4;
+}
+
+.timer {
+  background: #ff4b55;
+  border-radius: 30px;
+  min-width: 110px;
+  height: 22px;
+  margin-right: 10px;
+  color: #ffffff;
+}
+.timer span {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.beloVidTxt {
+  font-family: 'Gilroy-Medium !important';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #303548;
+}
+
+@media only screen and (max-width: 1024px) {
+  .forcelyRow {
+    width: 100%;
+    display: block;
+  }
+}
+
+.commentsSection::-webkit-scrollbar {
+  width: 1px;
+}
+/* Track */
+.commentsSection::-webkit-scrollbar-track {
+  background: rgb(204, 204, 209);
+  border-radius: 10px;
+}
+.commentsSection::-webkit-scrollbar-thumb {
+  background: rgb(21, 21, 21);
+  border-radius: 10px;
+}
+
+.commentsSection::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.disabledbutton {
+  pointer-events: none;
+  opacity: 0.4;
+}

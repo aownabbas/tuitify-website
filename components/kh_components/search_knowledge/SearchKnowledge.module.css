@@ -1,0 +1,357 @@
+.myprogress {
+  width: 44px;
+  height: 44px;
+  border-radius: 100px;
+  border: 2px solid blue;
+
+  font-family: 'Gilroy-Regular' !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  background: linear-gradient(131.85deg, #d51aff -19.16%, #4e6afe 58.53%, #8bf3fe 135.61%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.cardImgTxt {
+  font-family: 'Gilroy-Bold';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.cardtext {
+  font-family: 'Gilroy-Medium';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #353452;
+}
+.cardUserName {
+  font-family: 'Gilroy-Medium';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #353452;
+}
+.cardDate {
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #353452;
+  opacity: 0.6;
+}
+
+.nameRelatedGiistsTxt {
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: rgba(53, 52, 82, 0.78);
+}
+.filterButton {
+  width: 35px;
+  height: 35px;
+  border: none;
+  border-radius: 10px;
+  background: inherit;
+}
+.offcanvasLabels {
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #353452;
+  /* opacity: 0.4; */
+}
+.offcanvasInputs {
+  border: 1px solid rgba(48, 53, 72, 0.12);
+  height: 48px;
+  width: 180px;
+  border-radius: 12px;
+  padding: 15px;
+}
+.dropdownButton {
+  height: 48px;
+  border-radius: 12px;
+  border: 1px solid rgba(48, 53, 72, 0.12);
+  background-color: inherit;
+}
+ul.dropdownMenu {
+  width: 100%;
+  border-radius: 12px;
+  margin-top: 20px;
+  background: #ffffff;
+  box-shadow: -4px 4px 40px rgba(0, 0, 0, 0.16);
+  border-radius: 15px;
+  /* margin-left: 10px;
+    margin-right: 10px; */
+}
+ul.dropdownMenu > li {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.emailNow {
+  position: relative;
+  /* right: 0; */
+  background: #ffffff;
+  /* border: 1px solid rgba(48, 53, 72, 0.12); */
+  /* border-radius: 12px; */
+  height: 48px;
+}
+.emailInput {
+  border-radius: 12px;
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid rgba(48, 53, 72, 0.12);
+  border-radius: 12px;
+  height: 48px;
+  padding: 10px;
+  /* background-color: red; */
+}
+.emailInput:focus {
+  /* outline: 5px dotted green; */
+  border: 2px solid #d51aff !important;
+}
+
+.emlButton {
+  position: absolute;
+  border: none;
+  background: #ffffff;
+  right: 1em;
+  border: none;
+  /* height: 48px; */
+  border-radius: 30px;
+  border: none;
+
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.offcanvasButton {
+  background: #353452;
+  box-shadow: -2px 2px 40px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  color: #ffffff !important;
+  width: 350px !important;
+  height: 48px;
+}
+
+#menu {
+  height: 48px;
+  border: 1px solid rgb(182, 180, 180);
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 15px;
+  position: relative;
+  background-color: inherit;
+}
+.myarrow {
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
+}
+
+/* css for multilevel collapsible dropdown */
+.multiLevel,
+.item ul,
+.mylist input[type='checkbox'] {
+  display: none;
+}
+#menu:checked ~ .multiLevel,
+.item input:checked ~ ul {
+  display: block;
+}
+
+/* new detail dropdown */
+.mydropdownMenu {
+  position: relative;
+  width: 100%;
+  margin-right: 1rem;
+}
+.mydropdownMenu[open] {
+  z-index: 1;
+}
+
+.mydropdownSummary {
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 12px;
+  /* border: 1px solid grey; */
+  border: 1px solid rgba(48, 53, 72, 0.12);
+  /* height: 48px; */
+  background-color: #ffffff;
+  /* background-color: #ddd; */
+  list-style: none;
+}
+
+.mydropdownSummary::-webkit-details-marker {
+  display: none;
+}
+
+.mydropdownMenu[open] .mydropdownSummary:before {
+  content: '';
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.mydropdownSummary:after {
+  content: '';
+  display: inline-block;
+  float: right;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-bottom: 2px solid currentColor;
+  border-left: 2px solid currentColor;
+  margin-top: 0.5rem;
+  margin-right: 0.6rem;
+  border-bottom-left-radius: 2px;
+  transform: rotate(45deg) translate(50%, 0%);
+  transform-origin: center center;
+  transition: transform ease-in-out 100ms;
+}
+
+.mydropdownSummary:focus {
+  outline: none;
+}
+
+.mydropdownMenu[open] .mydropdownSummary:after {
+  transform: rotate(-45deg) translate(0%, 0%);
+}
+
+.mydropdownList {
+  width: 95%;
+  margin-left: 0.5rem !important;
+  margin-right: 0.5rem !important;
+  border-radius: 15px;
+  /* background: #ddd; */
+  box-shadow: -4px 4px 40px rgba(0, 0, 0, 0.16);
+  border-radius: 15px;
+  background: #ffffff;
+  position: absolute;
+  top: calc(100% + 0.8rem);
+  left: 0;
+  padding: 0.3rem;
+  margin: 0;
+  box-sizing: border-box;
+  /* border-radius: 5px; */
+  max-height: 280px;
+  overflow-y: auto;
+}
+
+.mydropdownList > li {
+  margin: 0;
+  padding: 0.5rem 0;
+  list-style: none;
+  /* border-bottom: 1px solid rgb(255, 255, 255); */
+}
+
+.mydropdownList > li:first-child {
+  padding-top: 0;
+}
+
+.mydropdownList > li:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+/* .mycheckbox input[type="checkbox"] {
+    appearance: none;
+    background-color: #fff;
+    margin: 0;
+    font: inherit;
+    color: currentColor;
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15em solid currentColor;
+    border-radius: 0.15em;
+    transform: translateY(-0.075em);
+  } */
+
+/* fake select */
+
+/* summary.radios {
+    counter-reset: radios;
+  }
+  
+  input[type=radio] {
+    counter-increment: radios;
+    appearance: none;
+    display: none;
+  }
+  
+  input[type=radio]:checked {
+    display: inline;
+  }
+  
+  input[type=radio]:after {
+    content: attr(title);
+    display: inline;
+    font-size: 1rem;
+  }
+  
+  ul.list {
+    counter-reset: labels;
+  }
+  
+  label {
+    width: 100%;
+    display: block;
+    cursor: pointer;
+  } */
+
+.filterByText {
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #353452;
+}
+
+.resettoDefault {
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration-line: underline;
+  color: #353452;
+  cursor: pointer;
+}
+.dateInput {
+  background: #ffffff;
+  border: 1px solid rgba(48, 53, 72, 0.12);
+  border-radius: 12px;
+  width: 100%;
+}
+
+.ratingText {
+  font-family: 'Gilroy-Light';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #353452;
+
+  opacity: 0.6;
+}

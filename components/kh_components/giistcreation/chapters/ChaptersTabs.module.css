@@ -1,0 +1,45 @@
+.tabHeading {
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+
+  color: #2f384c;
+}
+.webcamColoredBox {
+  height: 104px;
+  /* width: 201px; */
+  background: #e5fcff;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.screencastColoredBox {
+  height: 104px;
+  /* width: 201px; */
+  background: #fbe9ff;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.useLinkColoredBox {
+  height: 104px;
+  /* width: 201px; */
+  background: #fee6e6;
+  border-radius: 12px;
+  cursor: pointer;
+}
+/* modal styling */
+.useLinkInput {
+  height: 48px;
+  width: 100%;
+  padding: 10px;
+  background: #ffffff;
+  border: 1px solid rgba(53, 52, 82, 0.3);
+  border-radius: 10px;
+}
+
+/* @media screen and (min-width: 280px) {
+  .tabsInSmallerScreen {
+    background-color: lightgreen;
+  }
+} */

@@ -1,0 +1,31 @@
+// .global_search_tabs{
+//     div {
+//         div {
+//             color: pink;
+//             span.MuiTouchRipple-root.css-8je8zh-MuiTouchRipple-root:active{
+//                     background-color: #303548 !important;
+//                 }
+//           }
+//         color: pink;
+//       }
+// }
+.global_search_tabs{
+  // background-color: black ;
+  div {
+    // background-color: brown ;
+      div{
+        div{
+            button{
+              background-color: #303548 !important;
+              // display: none ;
+            }
+            & button.css-1q2h7u5.Mui-selected{
+              background-color: pink !important;
+            }
+                color: pink !important;
+            }
+              color: pink !important;
+          }
+            color: pink !important;
+          }
+}

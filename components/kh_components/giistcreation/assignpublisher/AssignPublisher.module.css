@@ -1,0 +1,129 @@
+/* The search field */
+.myInput {
+  box-sizing: border-box;
+  background-image: url('/assets/icons/new/search.svg');
+  background-size: 30px 16px;
+  background-position: right 1rem center;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 10px 50px 12px 25px;
+  width: 100%;
+  border: 1px solid rgba(53, 52, 82, 0.2);
+  height: 42px;
+  border-radius: 22.5px !important;
+  /* border-image-source: linear-gradient(131.85deg, #D51AFF -19.16%, #4E6AFE 58.53%, #8BF3FE 135.61%); */
+}
+
+/* The search field when it gets focus/clicked on */
+.myInput:focus {
+  background: #ffffff;
+  border: 1px solid #4e6afe;
+  border-radius: 22.5px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+/* .dropdown {
+    position: relative;
+    display: inline-block;
+  } */
+.tag {
+  background: #b9c0c966;
+  border-radius: 22.5px;
+  width: auto;
+  height: 45px;
+  /* margin-left: 1rem; */
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 10px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdownElement {
+  background-color: #fff;
+  margin-top: 4px;
+  border-radius: 10px;
+  width: 100%;
+  /* overflow-y: scroll; */
+  /* padding: 20px; */
+  z-index: 1000;
+  border: 1px solid rgba(53, 52, 82, 0.24);
+  position: absolute;
+}
+.dropdownContent {
+  /* display: none; */
+  position: absolute;
+  min-width: 290px;
+
+  /* width: 275px; */
+  /* border: 1px solid #ddd; */
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdownContent div a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdownContent div a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+  display: block;
+}
+
+.myPublisher {
+  font-weight: 600;
+  font-size: '20px' !important;
+  line-height: '25px';
+  color: '#303548' !important;
+}
+
+.publisher {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  color: #353452;
+  opacity: 0.8;
+}
+
+/* Define animations */
+@keyframes slideInUp {
+  from {
+    transform: translateY(50%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideOutUp {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-50%);
+    opacity: 0;
+  }
+}
+
+/* Apply animations */
+.userDropdownEnter {
+  animation: slideInUp 0.3s ease-out forwards;
+}
+
+.userDropdownExit {
+  animation: slideOutUp 0.3s ease-in forwards;
+}

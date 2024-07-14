@@ -1,0 +1,15 @@
+.customDropdownItem {
+  background-color: white;
+  color: white;
+}
+
+.customDropdownItem:hover {
+  background-color: white !important;
+  font-weight: 700 !important;
+  color: black;
+}
+
+.customDropdownItem:focus {
+  background-color: white !important;
+  outline: none;
+}

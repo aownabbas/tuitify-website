@@ -1,0 +1,333 @@
+.list {
+  list-style: none;
+}
+.list li {
+  display: inline;
+  margin-left: 2rem;
+  /* margin-top: 6rem; */
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  color: #003d68;
+}
+.list2 {
+  list-style: none;
+}
+.list2 li {
+  display: inline;
+  margin-left: 3rem;
+}
+.navButton {
+  border: 1px solid #285981;
+
+  background-color: transparent;
+  height: 48px;
+  width: 146px;
+  border-radius: 16px;
+  color: #285981;
+
+  font-family: 'Gilroy-Light' !important;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+.navButton:hover {
+  border: none;
+  background-color: #285981;
+  height: 48px;
+  width: 146px;
+  border-radius: 16px;
+  color: #ffffff !important;
+
+  font-family: 'Gilroy-Medium' !important;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+.navButton2 {
+  border: none;
+  background-color: #285981;
+  height: 48px;
+  width: 146px;
+  border-radius: 16px;
+  color: #ffffff !important;
+
+  font-family: 'Gilroy-UltraLight' !important;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+.navButton2:hover {
+  border: none;
+  background-color: #285981;
+  height: 48px;
+  width: 146px;
+  border-radius: 16px;
+  color: #ffffff !important;
+
+  font-family: 'Gilroy-Medium' !important;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+}
+.signupSideDive {
+  /* width: 389px; */
+  width: 50%;
+  /* height: 261px; */
+  height: auto;
+  background-color: rgba(0, 61, 104, 0.2);
+  margin-left: 5rem;
+  margin-top: 10rem;
+  backdrop-filter: blur(25px);
+  border-radius: 30px;
+}
+.mainTxtHeading {
+  /* text-align: center; */
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+
+  color: #ffffff !important;
+}
+.mainTxt {
+  /* text-align: center; */
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #ffffff !important;
+}
+.radiobuttonLabel {
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff !important;
+}
+
+/* ==================================================== */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  /* font-size: 22px; */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196f3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+/* =============== Form Container */
+.myFormContainer {
+  /* border: 0.1px solid rgb(216, 215, 215); */
+  /* background-color: #ffffff; */
+  border-radius: 16px;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* margin-right: 0.5rem !important; */
+  /* margin-left: 0.5rem !important; */
+  /* background-color: red;  */
+  width: 100%;
+  height: auto;
+}
+.myFormContainermain {
+  border: 0.1px solid rgb(216, 215, 215);
+  background-color: #ffffff;
+  border-radius: 16px;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* margin-right: 0.5rem !important; */
+  /* margin-left: 0.5rem !important; */
+  /* background-color: red;  */
+  /* width: 100%; */
+  /* height: auto; */
+}
+.signupStyle {
+  font-family: 'Gilroy-Medium';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+
+  color: #000000;
+}
+
+/* drop down */
+.mydropdownMenu {
+  position: relative;
+  width: 300px;
+  margin-right: 1rem;
+}
+.mydropdownMenu[open] {
+  z-index: 1;
+}
+
+.mydropdownSummary {
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 12px;
+  border: 1px solid grey;
+  background-color: #ffffff;
+  /* background-color: #ddd; */
+  list-style: none;
+}
+
+.mydropdownSummary::-webkit-details-marker {
+  display: none;
+}
+
+.mydropdownMenu[open] .mydropdownSummary:before {
+  content: '';
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.mydropdownSummary:after {
+  content: '';
+  display: inline-block;
+  float: right;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-bottom: 2px solid currentColor;
+  border-left: 2px solid currentColor;
+  margin-top: 0.5rem;
+  margin-right: 0.6rem;
+  border-bottom-left-radius: 2px;
+  transform: rotate(-45deg) translate(0%, 0%);
+  transform-origin: center center;
+  transition: transform ease-in-out 0.3s;
+}
+
+.mydropdownSummary:focus {
+  outline: none;
+}
+
+.mydropdownMenu[open] .mydropdownSummary:after {
+  transform: rotate(134deg) translate(50%, 0%);
+}
+
+.mydropdownList {
+  width: 95%;
+  margin-left: 0.5rem !important;
+  margin-right: 0.5rem !important;
+  border-radius: 15px;
+  /* background: #ddd; */
+  box-shadow: -4px 4px 40px rgba(0, 0, 0, 0.16);
+  border-radius: 15px;
+  background: #ffffff;
+  position: absolute;
+  top: calc(100% + 0.8rem);
+  left: 0;
+  padding: 0.3rem;
+  margin: 0;
+  box-sizing: border-box;
+  /* border-radius: 5px; */
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.mydropdownList > li {
+  margin: 0;
+  padding: 0.5rem 0;
+  list-style: none;
+  /* border-bottom: 1px solid rgb(255, 255, 255); */
+}
+
+.mydropdownList > li:first-child {
+  padding-top: 0;
+}
+
+.mydropdownList > li:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+.proceedButton {
+  background-color: #003d68;
+  border-radius: 10px;
+  height: 52px;
+}
+
+.proceedButton:hover,
+.proceedButton:active {
+  background-color: #025088;
+  border-radius: 10px;
+  height: 52px;
+}
+
+.proceedButton:disabled,
+  /* .proceedButton:hover, */
+  .proceedButton:active {
+  border-radius: 10px;
+  height: 52px;
+  border: none;
+  background-color: rgb(176, 176, 176);
+  color: #292929;
+  border-color: #ccc;
+  cursor: not-allowed;
+}

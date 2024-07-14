@@ -1,0 +1,688 @@
+.listUnstyled li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 0.5rem;
+  margin-left: 1.5rem;
+}
+.listTxt {
+  font-family: 'Gilroy-Regular' !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #0f172a;
+  padding-left: 25px;
+  padding-right: 10px;
+}
+.listTxt span {
+  font-family: 'Gilroy-Regular' !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #625efe !important;
+  padding-left: 5px;
+}
+.modalDialog {
+  border-radius: 15px !important;
+}
+.modalDismissButton {
+  width: 132px;
+  height: 48px;
+  background-color: red !important;
+}
+
+/* copy from userProfile */
+.card {
+  border-radius: 15px !important;
+  height: 660px;
+  background-color: #ffffff;
+}
+
+.imgFrame {
+  background: linear-gradient(0deg, rgba(53, 52, 82, 0.16), rgba(53, 52, 82, 0.16));
+  border-radius: 70px;
+}
+
+.userName {
+  font-family: 'Gilroy-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+}
+.userEmail {
+  font-family: 'Gilroy-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  opacity: 0.6;
+}
+.leftborder {
+  /* width: 1px; */
+  /* height: 100%; */
+  border-left: 1px solid rgb(196, 191, 191);
+}
+.userFollowers {
+  font-family: 'Gilroy-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+}
+
+.userfolTxt {
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #000000;
+}
+
+.userButton {
+  border: 1px solid #353452;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: transparent;
+  width: 146px;
+  height: 48px;
+
+  font-family: 'Gilroy-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+.userButtonFollowed {
+  /* border: 1px solid #353452; */
+  box-sizing: border-box;
+  border: none;
+  border-radius: 10px;
+  /* background-color: transparent; */
+  background: linear-gradient(131.85deg, #d51aff -19.16%, #4e6afe 58.53%, #8bf3fe 135.61%);
+  width: 146px;
+  height: 48px;
+
+  font-family: 'Gilroy-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff !important;
+}
+.userButton:hover {
+  border: 1px solid #353452;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: #353452;
+  width: 146px;
+  height: 48px;
+
+  font-family: 'Gilroy-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff !important;
+}
+
+.mytab {
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: center;
+}
+.mytab li > button {
+  /* margin-left: 10px; */
+  width: 140px;
+  border: none;
+  border-bottom: 2px solid #afb0b6;
+  background-color: transparent;
+
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #8c8b93;
+}
+
+.mytab li > button.active {
+  /* margin-left: 10px; */
+  width: 130px;
+  border: none;
+  border-bottom: 2px solid #303548;
+  background-color: transparent;
+
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #353452;
+}
+.commentRow {
+  background: #ffffff;
+  border: 1px solid rgba(53, 52, 82, 0.1);
+  border-radius: 10px;
+}
+.commentsImg {
+  width: 32px;
+  height: 32px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+  border: 0.5px solid rgba(53, 52, 82, 0.1);
+  border-radius: 5px;
+}
+.actComments {
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  margin-top: 12px;
+  margin-bottom: 10px;
+  /* 
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+
+  color: #353452;
+
+  opacity: 0.7;
+}
+.comments {
+  height: '100px';
+  /* background-color: red;   */
+  overflow-y: 'auto';
+  overflow-x: 'hidden';
+}
+
+.mycard {
+  background: #ffffff;
+  border: 1px solid rgba(53, 52, 82, 0.1);
+  border-radius: 10px;
+  /* width: 156px;   */
+  height: 80px;
+}
+.mytitle {
+  margin-top: -12px;
+  font-family: 'Gilroy-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #625efe !important;
+}
+.mytext {
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #303548;
+  opacity: 0.6;
+}
+.detailsCard {
+  background: #ffffff;
+  border-radius: 15px !important;
+}
+.detailCardTitle {
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  color: #353452;
+}
+.detailCardTxt {
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #353452;
+  opacity: 0.6;
+}
+.detailsLabel {
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  color: #353452;
+  opacity: 0.6;
+}
+.detailList li {
+  display: inline;
+  /* list-style: none; */
+  margin-left: -20px;
+}
+.detailtext {
+  font-family: 'Gilroy-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #353452;
+}
+.publishedGiistsCard {
+  height: auto;
+  background: #ffffff;
+  border-radius: 15px !important;
+}
+.filterHeading {
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #353452;
+}
+.resetDefault {
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration-line: underline;
+
+  color: #353452;
+  cursor: pointer;
+}
+
+.emailNow {
+  position: relative;
+  width: auto;
+  /* width: 327px; */
+  /* right: 0; */
+  background: inherit;
+  /* margin-right: 0.4rem; */
+  /* border: 1px solid rgba(48, 53, 72, 0.12); */
+  /* border-radius: 12px; */
+  /* height: 48px; */
+}
+.emailInput {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  border-radius: 12px;
+  width: 200px;
+  height: 48px;
+  padding: 10px;
+  padding-right: 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+.categorySearchPane {
+  position: relative;
+  width: 100%;
+  background: inherit;
+  margin-right: 1rem;
+}
+.categorySearchInput {
+  border-radius: 12px;
+  background: inherit;
+  border: 1px solid rgba(48, 53, 72, 0.12);
+  border-radius: 12px;
+  height: 48px;
+  padding: 10px;
+  width: 100%;
+
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  box-sizing: border-box;
+  background-image: url('/assets/icons/new/search.svg');
+  background-size: 30px 16px;
+  background-position: right 1rem center;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  border-radius: 10px !important;
+  margin-top: 5px;
+}
+.categorySearchInput:focus {
+  border: 1px solid rgba(48, 53, 72, 0.12);
+}
+.dropdownSearchInput {
+  border-radius: 12px;
+
+  background: inherit;
+  border: 1px solid rgba(48, 53, 72, 0.12);
+
+  border-radius: 12px;
+  height: 48px;
+  padding: 10px;
+  padding-right: 40px;
+  width: 100%;
+}
+.dropdownSearchInput:focus {
+  border: 1px solid #353452;
+}
+.emailInput:focus {
+  border: 1px solid #353452;
+  width: 300px;
+}
+
+.emlButton {
+  position: absolute;
+  right: 0.5em;
+  border: none;
+  border-radius: 30px;
+  border: none;
+  top: 56%;
+  transform: translateY(-50%);
+}
+.filterButton {
+  border: none;
+  background-color: inherit;
+  /* margin-top: 0.5rem; */
+}
+.customList {
+  list-style: none;
+  position: absolute;
+  width: 400px;
+  height: 500px;
+  overflow-y: auto;
+  border: 1px solid rgb(204, 201, 201);
+  background: #ffffff;
+  z-index: 20;
+  right: 0;
+  margin-top: 0.8rem;
+  box-shadow: 5.61111px 5.61111px 67.3333px rgba(20, 4, 4, 0.1);
+  /* box-shadow: -4px 4px 40px rgba(0, 0, 0, 0.16); */
+  border-radius: 15px;
+  /* padding: 1rem; */
+}
+.customList li {
+  padding: 0.2rem;
+  margin: 10px 10px 10px -18px;
+  /* margin-top: 10px;
+    margin-bottom: 10px; */
+}
+
+.offcanvasLabels {
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #353452;
+  opacity: 0.4;
+}
+.offcanvasInputs {
+  border: 1px solid rgba(48, 53, 72, 0.12);
+  height: 48px;
+  width: 180px;
+  border-radius: 12px;
+  padding: 15px;
+}
+.dropdownButton {
+  height: 48px;
+  border-radius: 12px;
+  border: 1px solid rgba(48, 53, 72, 0.12);
+  background-color: inherit;
+}
+
+.mydropdownMenu {
+  position: relative;
+  width: 100%;
+  margin-right: 1rem;
+}
+.mydropdownMenu[open] {
+  z-index: 1;
+}
+
+.mydropdownSummary {
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 12px;
+  border: 1px solid rgba(48, 53, 72, 0.12);
+  background-color: #ffffff;
+  /* background-color: #ddd; */
+  list-style: none;
+}
+
+.mydropdownSummary::-webkit-details-marker {
+  display: none;
+}
+
+.mydropdownMenu[open] .mydropdownSummary:before {
+  content: '';
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.mydropdownSummary:after {
+  content: '';
+  display: inline-block;
+  float: right;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-bottom: 2px solid currentColor;
+  border-left: 2px solid currentColor;
+  margin-top: 0.5rem;
+  margin-right: 0.6rem;
+  border-bottom-left-radius: 2px;
+  transform: rotate(-45deg) translate(0%, 0%);
+  transform-origin: center center;
+  transition: transform ease-in-out 0.3s;
+}
+
+.mydropdownSummary:focus {
+  outline: none;
+}
+
+.mydropdownMenu[open] .mydropdownSummary:after {
+  transform: rotate(134deg) translate(50%, 0%);
+}
+
+.mydropdownList {
+  width: 95%;
+  margin-left: 0.5rem !important;
+  margin-right: 0.5rem !important;
+  border-radius: 15px;
+  /* background: #ddd; */
+  box-shadow: -4px 4px 40px rgba(0, 0, 0, 0.16);
+  border-radius: 15px;
+  background: #ffffff;
+  position: absolute;
+  top: calc(100% + 0.8rem);
+  left: 0;
+  padding: 0.3rem;
+  margin: 0;
+  box-sizing: border-box;
+  /* border-radius: 5px; */
+  max-height: 250px;
+  overflow-y: auto;
+  border: 1px solid rgba(48, 53, 72, 0.12);
+}
+
+.mydropdownList > li {
+  margin: 0;
+  padding: 0.5rem 0;
+  list-style: none;
+  /* border-bottom: 1px solid rgb(255, 255, 255); */
+}
+
+.mydropdownList > li:first-child {
+  padding-top: 0;
+}
+
+.mydropdownList > li:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+.offcanvasButton {
+  background: #353452;
+  box-shadow: -2px 2px 40px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  color: #ffffff !important;
+  width: 350px !important;
+  height: 48px;
+}
+.ratingTxt {
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #353452;
+  opacity: 0.6;
+}
+.cardTitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #353452;
+}
+.userGiistName {
+  font-family: 'Gilroy-Medium' !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #353452;
+}
+.giistDate {
+  font-family: 'Gilroy-Regular';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #353452;
+  opacity: 0.6;
+  /* margin-top: -50rem !important; */
+}
+.cardRating {
+  width: 44px;
+  height: 44px;
+  border-radius: 100px;
+  border: 2px solid blue;
+
+  font-family: 'Gilroy-Regular' !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  background: linear-gradient(131.85deg, #d51aff -19.16%, #4e6afe 58.53%, #8bf3fe 135.61%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+/* End of copy from userProfile */
+
+.mybutton {
+  border: none;
+  background: transparent;
+  font-family: 'Gilroy-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+}
+.mybutton > span {
+  background: #424a5c;
+  border-radius: 20px 20px 20px 0px;
+
+  height: 22px;
+  width: 22px;
+  transform: translateY(-60%);
+  font-size: 12px;
+  margin-left: 5px;
+}
+.mybutton.active {
+  border: none;
+  background: transparent;
+  font-family: 'Gilroy-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: blue !important;
+}
+.mybutton.active > span {
+  background: linear-gradient(241.72deg, #88edfe -43.84%, #625efe 59.56%, #c224fe 167.61%);
+  border-radius: 20px 20px 20px 0px;
+
+  height: 22px;
+  width: 22px;
+  transform: translateY(-60%);
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+/* .myBadge {
+    background: linear-gradient(241.72deg, #88EDFE -43.84%, #625EFE 59.56%, #C224FE 167.61%); 
+    border-radius: 20px 20px 20px 0px;
+    
+    height: 22px; 
+    width: 22px; 
+    transform: translateY(-60%); 
+    font-size: 12px;
+    margin-left: 5px;
+} */
+.myBadge p {
+  color: #f4faff !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card3dotsButton {
+  border: none;
+  background: inherit;
+}
+
+.publishedGiistsCardMenu {
+  height: auto;
+  width: 100px;
+  background: #353452;
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  margin-right: 2.5rem;
+  margin-top: -1.5rem;
+  border-radius: 5px;
+}
+
+.cardMenueButtons > button {
+  border: none;
+  background: inherit;
+  color: #ffffff !important;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.contentScroll {
+  height: 76vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.contentScroll::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Handle */
+.contentScroll::-webkit-scrollbar-thumb {
+  /* background: #cbcbd1; */
+  background: #263238;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+.contentScroll::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

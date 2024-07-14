@@ -1,0 +1,80 @@
+.linkBox {
+  background-color: #f1f3f4;
+  border-radius: 5px;
+  padding: 10px;
+}
+.meetingBg {
+  background-color: #444a60;
+  border-radius: 5px;
+  height: 100%;
+}
+.meetingBg1 {
+  background-color: #444a60;
+  border-radius: 5px;
+  height: 80%;
+}
+.centerUserImage {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centerUserImage1 {
+  margin: 0;
+  position: absolute;
+  top: 45%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+.regular-mid-small {
+  font-size: 16px !important;
+  font-family: 'Gilroy-Regular' !important;
+}
+.semibold-mid-large {
+  font-size: 16px !important;
+  font-family: 'Gilroy-Semibold' !important;
+}
+.w-20 {
+  width: 25% !important;
+}
+
+.scrollUserContainer {
+  display: flex;
+  overflow-x: auto; /* Enable horizontal scrolling */
+}
+.scrollUserContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.usersContent {
+  display: flex;
+}
+/* .webagora {
+  background: red;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+.webagora > div {
+  background-color: black !important;
+  border-radius: 10px;
+}
+
+.video-scroll-container {
+  width: 100%;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+.video-box {
+  display: inline-block;
+  width: 245px;
+  height: 200px;
+  margin-right: 10px;
+  /* Add any other styles for your video box */
+}
+.disabledDiv {
+  opacity: 0.5;
+  pointer-events: none;
+}

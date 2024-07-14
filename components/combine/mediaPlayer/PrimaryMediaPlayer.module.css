@@ -1,0 +1,28 @@
+/* @media only screen and (max-width: 768px) {
+    .vidContent {
+      width: 100%;
+      display: flex;
+    }
+  } */
+.fullWidthVideo {
+  width: 1293px;
+}
+@media (min-width: 900px) {
+  .fullWidthVideo {
+    width: 100%;
+    display: block;
+  }
+}
+.fullscreen {
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+/*Aown: In PrimaryMediaPlayer.module.css I remove the commented code just */
+/* .vidContent {
+  width: 100%;
+  display: flex;
+  height: 100% !important;
+  border-radius: 49px !important;
+} */

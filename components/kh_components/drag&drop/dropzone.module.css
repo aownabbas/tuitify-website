@@ -1,0 +1,36 @@
+.mydropzone {
+  text-align: center;
+  padding: 20px;
+  border: 2px blue dashed;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  border-radius: 12px;
+  position: relative;
+}
+.mydropzoneInner {
+  text-align: center;
+  padding: 20px;
+  border: 2px rgba(255, 204, 0, 0.888) dashed;
+  width: 100%;
+  height: 100%;
+  /* height: 70vh; */
+  /* height: 50vh; */
+  margin: auto;
+  border-radius: 12px;
+  position: relative;
+}
+
+.btn {
+  width: auto;
+  height: auto;
+  left: 569px;
+  top: 434px;
+  padding: 10px;
+  background: #353452;
+  border-radius: 12px;
+  color: #ffffff !important;
+}
+.btn:hover {
+  color: aliceblue;
+}

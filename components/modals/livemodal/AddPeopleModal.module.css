@@ -1,0 +1,97 @@
+/* Add people modal */
+.input_border {
+  height: 46px;
+  border: 1px solid #494949;
+  border-radius: 5px;
+  outline: 0;
+  border-color: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.input_border input {
+  border: none;
+  outline: none;
+  /* width: 50px !important; */
+  height: 40px;
+}
+
+.input::placeholder {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+
+  color: #494949;
+  /* opacity: 0.4; */
+}
+
+.searchInput {
+  background-color: #f1f3f4;
+  padding: 10px;
+  border-radius: 5px;
+}
+.input_border1 {
+  border-radius: 5px;
+  outline: 0;
+  background-color: #f1f3f4;
+  padding: 7px;
+}
+.input1 {
+  border: none;
+  outline: none;
+  /* width: 50px !important; */
+  /* height: 40px; */
+}
+.input1::placeholder {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+
+  color: #494949;
+  /* opacity: 0.4; */
+}
+.chatBg {
+  background-color: #f1f3f4;
+}
+.dropdownElement {
+  background-color: #fff;
+  margin-top: 10px;
+  border-radius: 10px;
+  max-height: 40vh;
+  width: 100%;
+  overflow-y: scroll;
+  /* padding: 20px; */
+  z-index: 1;
+  border: 1px solid rgba(53, 52, 82, 0.24);
+  position: absolute;
+}
+
+.commentsScroll {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.commentsScroll::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+.commentsScroll::-webkit-scrollbar-track {
+  /* background: white; */
+  background: none;
+}
+
+/* Handle */
+.commentsScroll::-webkit-scrollbar-thumb {
+  /* background: #cbcbd1; */
+  background: #dadada;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.commentsScroll::-webkit-scrollbar-thumb:hover {
+  background: rgb(101, 98, 98);
+}
